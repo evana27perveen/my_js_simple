@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>shopping cart</title>
+        <script src="home.js" async defer></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body style="text-align:center; background:white;">
+        <div id="title" style="text-align:center;"><h1>Eva</h1></div>
+        <div id="product_list" style="text-align:center;display:block;">
+            <div style="text-align:center;">
+                <ul> <span>a</span> <span>price : 10</span> <button id="b1">add to cart</button></ul>
+                <ul> <span>b</span> <span>price : 20</span> <button id="b2">add to cart</button></ul>
+                <ul> <span>c</span> <span>price : 30</span> <button id="b3">add to cart</button></ul>
+                <ul> <span>d</span> <span>price : 40</span> <button id="b4">add to cart</button></ul>
+            </div>
+        </div>
+
+
+        <div id="card_div" style="text-align:center;"><button id="view">my cart<span id="nfy"></span></button></div>
+
+
+
+        <div id="cart_list" style="display: none;text-align:center;">
+            <ul id="p1" style="display: none"> <span>a</span> <span>price : 10</span> <button id="r1">remove</button></ul>
+            <ul id="p2" style="display: none"> <span>b</span> <span>price : 20</span> <button id="r2">remove</button></ul>
+            <ul id="p3" style="display: none"> <span>c</span> <span>price : 30</span> <button id="r3">remove</button></ul>
+            <ul id="p4" style="display: none"> <span>d</span> <span>price : 40</span> <button id="r4">remove</button></ul>
+            <div id="sum" style="display: none;text-align:center;">Total price is = <span id="j_sum"></span>
+            </div>
+            <div><button id="back">back to shopping list</button></div>
+        </div>
+    </body>
+</html>
