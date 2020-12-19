@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>expression validation</title>
+        <script src="home_js_2.js" async defer></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div id="title" style="text-align: center;"><h1>Validation test</h></div>
+        <div id="input_div" style="text-align: center">
+            <div id="select_div">
+                <label>choose what kind of expression you want to test :</label>
+                <select name="options" id="options">
+                    <option>Select</option>
+                    <option>Email</option>
+                    <option>Phone Number</option>
+                    <option>Postal Code</option>
+                    <option>password</option>
+                </select>
+                <button id="select_btn" type="button">Select</button>
+                <div id="op_error" style="text-align: center">...</div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="ex_input" style="text-align: center;">
+
+            <div id="ex_op_1" style="text-align: center;display:none;">
+                <label>Email</label>
+                <input id="1" type="string" name="email">
+                <button id="select_1" type="button">Select</button>
+            </div>
+
+            <div id="ex_op_2" style="text-align: center;display:none;">
+                <label>Phone Number</label>
+                <input id="2" type="number" name="number">
+                <button id="select_2" type="button">Select</button>
+            </div>
+
+            <div id="ex_op_3" style="text-align: center;display:none;">
+                <label>Postal Code</label>
+                <input id="3" type="number" name="postal_code">
+                <button id="select_3" type="button">Select</button>
+            </div>
+
+            <div id="ex_op_4" style="text-align: center;display:none;">
+                <label>Password</label>
+                <input id="4" type="string" name="password">
+                <button id="select_4" type="button">Select</button>
+            </div>
+
+
+            <br><br>
+
+
+
+            <div id="results" style="text-align:center;display:none"></div>
+
+
+
+        </div>
+    </body>
+</html>
