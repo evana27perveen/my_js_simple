@@ -48,7 +48,7 @@ if(eva == "Phone Number"){
     document.getElementById("select_2").addEventListener("click",function(){
         let a = document.getElementById("2").value;
 
-        var regex = /^\d{11}$/;
+        var regex =  /\+?(88)01[3-9][0-9]{8}\b/;
     
         if(regex.test(a) === true)
             {
@@ -73,7 +73,7 @@ if(eva == "Postal Code"){
     document.getElementById("select_3").addEventListener("click",function(){
         let a = document.getElementById("3").value;
 
-        var regex = /^\d{4}$/;
+        var regex = /^[1-9][0-9]{3}$/;
     
         if(regex.test(a) === true)
             {
